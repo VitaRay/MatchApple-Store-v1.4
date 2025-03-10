@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en-RU">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/svg" href="images/logo-circle.svg" sizes="32x32"/>
+        <link rel="stylesheet" href="assets/preloader-styles.css">
+        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+        <title>MatchApple Store</title>
+    </head>
+    <body class="unloaded">
+        <div class="preloader-container">
+            <div id="big">
+                <div id="dot55"></div>
+                <div id="dot56"></div>
+                <div id="dot58"></div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>let t10 = new TimelineMax({repeat: -1});
+                let t10a = new TimelineMax({repeat: -1});
+                t10
+                   .fromTo($("#dot55"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot56"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot58"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                t10a
+                    .fromTo($("#dot57"), 0.4, {y:-120}, {y:-3, ease:Power2.easeIn},0)
+                    .fromTo($("#dot57"), 0.4, {y:-3},{y:-120, ease:Power2.easeOut});
+                    window.onload = function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('unloaded');}</script>
+
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo-name.svg" alt="logo" style="height: 35px;">
+                </a>
+                    <div class="separator-vert" style="background-color: #1f1f1f;"></div>
+                <ul class="navbar-menu">
+                    <li><a href="mac-accessories.html">Mac</a></li>
+                    <li><a href="ipad-accessories.html">iPad</a></li>
+                    <li><a href="iphone-accessories.html">iPhone</a></li>
+                    <li><a href="vision-accessories.html">Vision</a></li>
+                    <li><a target="_blank" href="https://apple.com">Apple Side</a></li>
+                </ul>
+
+                <div class="separator-vert" style="background-color: #1f1f1f;"></div>
+                <ul class="navbar-menu">
+                    <li><a href="about-us.html">О нас</a></li>
+                    <li><a href="support.html">Поддержка</a></li>
+                </ul>
+
+                <ul class="navbar-menu navbar-side-menu">
+                    <li><a href="user-cart.html"><img class="cart" src="images/cart.svg" alt="cart" style="height: 32px;"></a></li>
+                    <li>
+                        <a href="login.php" class="nav-login-link">
+                            <div class="nav-login dp-flx">Войти</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+                <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                        <input type="radio" name="slider" id="switch4">
+                        <input type="radio" name="slider" id="switch5">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="image">
+                                <article><img src="images/magsafe-slider-1.png"></article>
+                                <article><img src="images/magsafe-slider-2.png"></article>
+                                <article><img src="images/magsafe-slider-3.png"></article>
+                                <article><img src="images/magsafe-slider-4.png"></article>
+                                <article><img src="images/magsafe-slider-5.png"></article>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+        </div>
+
+        <div class="page-content">
+            <h1 style="margin-top: 40px">Наши преимущества 💪</h1>
+            <div class="container review-block">
+                <div class="review-element dp-block" style="background-color: rgb(245, 245, 247);">
+                    <img src="images/cdek-delivery.png" alt="product-picture" class="advantages-picture">
+                    <h2>Быстрая<br>доставка</h2>
+                    <p style="margin: 10px; text-align: center">Наш партнёр CDEK<br>обо всём позаботится</p>
+                </div>
+                <div class="review-element dp-block" style="background-color: rgb(245, 245, 247);">
+                    <img src="images/original-product.png" alt="original-product-picture" class="advantages-picture">
+                    <h2>Оригинальная продукция</h2>
+                    <p style="margin: 10px; text-align: center">В нашем ассортименте исключительно оригинальная продукция </p>
+                </div>
+                <div class="review-element dp-block" style="background-color: rgb(245, 245, 247);">
+                    <img src="images/bonus-advantage.png" alt="bonus-picture" class="advantages-picture">
+                    <h2>Бонусы<br>за покупки</h2>
+                    <p style="margin: 10px; text-align: center;">За покупки вы получаете баллы, которые<br> можно потратить на наши продукты</p>
+                </div>
+            </div>
+    
+            <div class="separator-horiz"></div>
+    
+            <h1>Найдите аксессуары, которые вам нужны</h1>
+            <form class="search" action="#">
+                <input type="text" placeholder="Искать...">
+                <button class="search-button" type="submit"><img class="search-picture" src="images/search-picture.svg" alt="search-picture"></button>
+            </form>  
+    
+            <div class="separator-horiz"></div>
+    
+            <h1>Поиск по устройству</h1>
+            <div class="container container-rounds text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="element-rounds mt-0">
+                            <a href="mac-accessories.html">
+                                <img src="images/macbook.png" alt="macbook-picture" class="round-picture">
+                                <p class="rounds-text">Mac</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="element-rounds">
+                            <a href="ipad-accessories.html">
+                                <img src="images/ipad.png" alt="ipad-picture" class="round-picture">
+                                <p class="rounds-text">iPad</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="element-rounds">
+                            <a href="iphone-accessories.html">
+                                <img src="images/iphone.png" alt="iphone-picture" class="round-picture" style="width: auto;">
+                                <p class="rounds-text">iPhone</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="element-rounds">
+                            <a href="vision-accessories.html">
+                                <img src="images/vision-pro.png" alt="apple-watch-ultra-2" class="round-picture watch-ultra-2-picture">
+                                <p class="rounds-text">Vision</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="separator-horiz"></div>
+    
+            <h1>Поиск по категории</h1>
+    
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="element-rounds mt-0">
+                            <a class="link-element-rounds" href="assortiment.html">
+                                <img src="images/case-picture.svg" alt="case-picture" class="round-logo" style="height: 137px;">
+                                <p class="rounds-text">Чехлы и защита</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="element-rounds">
+                            <a class="link-element-rounds" href="assortiment.html">
+                                <img src="images/cable-connector.svg" alt="cable-picture" class="round-picture">
+                                <p class="rounds-text">Для зарядки</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="element-rounds">
+                            <a class="link-element-rounds" href="assortiment.html">
+                                <img src="images/airpods.svg" alt="airpods-picture" class="round-picture">
+                                <p class="rounds-text">Наушники и динамики</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="element-rounds">
+                            <a class="link-element-rounds" href="assortiment.html">
+                                <img src="images/mouse-keyboard.svg" alt="mouse-keyboard-picture" class="round-picture mouse-keyboard-picture">
+                                <p class="rounds-text">Клавиатуры и мыши</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a class="link-element-rounds" href="assortiment.html">
+                            <div class="element-rounds">
+                                    <img src="images/airtag.svg" alt="airtag-picture" class="round-picture">
+                                    <p class="rounds-text">AirTag</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="element-rounds">
+                            <a class="link-element-rounds" href="assortiment.html">
+                                <img src="images/gamepad.svg" alt="gamepad-picture" class="round-picture">
+                                <p class="rounds-text">Гейминг</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                            <a class="link-element-rounds" href="assortiment.html">
+                                <div class="element-rounds">
+                                    <img src="images/camera.svg" alt="camera-and-photo" class="round-picture">
+                                    <p class="rounds-text">Фотография</p>
+                                </div>
+                            </a>
+                    </div>
+                    <div class="col">
+                        <a class="link-element-rounds" href="assortiment.html">
+                            <div class="element-rounds">
+                                <img src="images/pencil.svg" alt="pencil-picture" class="round-picture">
+                                <p class="rounds-text">Для творчества</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="separator-horiz"></div>
+    
+            <h1>Отзывы покупателей 📄</h1>
+            <div class="container review-block">
+                <div class="review-element dp-block">
+                    <div class="dp-flx">
+                        <div class="circle-image">
+                            <img src="images/women.jpeg"/>
+                        </div>
+                        <div class="name-rating">
+                            <b style="font-size: 22px;">Lily Meadow</b>
+                            <div class="rating-container dp-flx mt-2">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin: 10px; text-align: justify;">Отличный выбор аксессуаров для iPhone! Быстрая доставка и отличное качество продукции. Очень доволен!</p>
+                </div>
+                <div class="review-element dp-block">
+                    <div class="dp-flx">
+                        <div class="circle-image">
+                            <img src="images/boy.jpeg"/>
+                        </div>
+                        <div class="name-rating">
+                            <b style="font-size: 22px;">Starlight Dreamer</b>
+                            <div class="rating-container dp-flx mt-2">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin: 10px; text-align: justify">Магазин предоставил широкий ассортимент аксессуаров для моего iPad. Очень доволен качеством товаров и обслуживанием.</p>
+                </div>
+                <div class="review-element dp-block">
+                    <div class="dp-flx">
+                        <div class="circle-image">
+                            <img src="images/women2.jpeg"/>
+                        </div>
+                        <div class="name-rating">
+                            <b style="font-size: 22px;">Aurora Sky</b>
+                            <div class="rating-container dp-flx mt-2">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                                <img src="images/star-fill.png" alt="star-picture" class="rating-image">
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin: 10px; text-align: justify;">Замечательный выбор чехлов для MacBook. Прекрасное качество и отличный сервис. Рекомендую этот магазин всем владельцам устройств Apple!</p>
+                </div>
+            </div>
+            <p class="underblock-paragraph"><a href="reviews.html" class="underblock-link">Показать все отзывы</a> ></p>
+    
+            <div class="separator-horiz"></div>
+    
+            <div class=" dp-flx centering"><h1>Популярное для iPhone</h1><img src="images/iphone-icon.svg" alt="iphone-picture" style="height: 55px;margin-bottom: auto; margin-left: 20px;"></div>
+            <div class="container dp-flx mobile-slider">
+                <div class="layer">
+                    <div class="viewport viewport3">
+                        <div class="wrapper wrapper3">
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/iphone-16-pro-max-clear-case-with-magsafe.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Прозрачный чехол с MagSafe для iPhone 16 Pro Max</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>4990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/iphone-16-silicone-case-with-magsafe-ultramarine.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Силиконовый чехол для iphone 16 с MagSafe — Ультрамарин</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #40198a;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #e1e43b;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #162917;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #9e2884;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>4990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/20w-usb-c-power-adapter.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Адаптер питания 20W USB-C</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>1990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/magsafe-charger-1m.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Зарядка MagSafe (1 м)</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>3990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/iphone-finewoven-wallet-with-magsafe-blackberry.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Кошелёк MagSafe — Бордовый</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #311318;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #192413;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #151727;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>5990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/240w-usb-c-charge-cable-2m.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">USB-C кабель для зарядки 240W (2 м)</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>2990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="left left3">
+                        <img src="images/arrow-forward-circle.svg" alt="backward-button">
+                    </button>
+                    <button class="right right3">
+                        <img src="images/arrow-backward-circle.svg" alt="forward-button">
+                    </button>
+                </div>
+            </div>
+            <p class="underblock-paragraph"><a href="iphone-accessories.html" class="underblock-link">Показать всё для iPhone</a> ></p>
+    
+            
+    
+            <div class="separator-horiz"></div>
+    
+            <div class=" dp-flx centering"><h1>Популярное для iPad</h1><img src="images/ipad-icon.svg" alt="ipad-picture" style="width: 65px;margin-bottom: auto; margin-left: 20px;"></div>
+            <div class="container dp-flx mobile-slider">
+                <div class="layer">
+                    <div class="viewport viewport2">
+                        <div class="wrapper wrapper2">
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/smart-folio-for-ipad-mini-a17pro-light-violet.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Smart Folio для iPad mini<br>(A 17 Pro) — Фиолетовый</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #c89bd3;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #aec0f0;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #79a775;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>5990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/apple-pencil-pro.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Apple Pencil Pro</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>12990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/magic-keyboard-for-ipad-pro-13-m4-white.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Magic Keyboard для iPad Pro 13" (M4) — Белый</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>34990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/smart-folio-for-ipad-pro-13-m4-blue.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Smart Folio для iPad Pro 13" (M4)</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #aec0f0;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>9990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/apple-pencil-usb-c.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Apple Pencil USB-C</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>7990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/magic-keyboard-for-ipad-air-11-m2-black.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Magic Keyboard для iPad Air 11" (M2) — Черный</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>29990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="left left2">
+                        <img src="images/arrow-forward-circle.svg" alt="forward-button">
+                    </button>
+                    <button class="right right2">
+                        <img src="images/arrow-backward-circle.svg" alt="backward-button">
+                    </button>
+                </div>
+            </div>
+            <p class="underblock-paragraph"><a href="ipad-accessories.html" class="underblock-link">Показать всё для iPad</a> ></p>
+    
+            <div class="separator-horiz"></div>
+    
+            <div class=" dp-flx centering"><h1>AirTag</h1><img src="images/airtag.svg" alt="airtag-picture" style="width: 65px;margin-bottom: auto; margin-left: 20px;"></div>
+            <div class="container dp-flx mobile-slider">
+                <div class="layer">
+                    <div class="viewport viewport1">
+                        <div class="wrapper wrapper1">
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/airtag.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">AirTag</h3>
+                                        <ul class="circle-colors-list dp-flx"></ul>
+                                        <p>2990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/airtag-4pack.jfif" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">AirTag 4 шт.</h3>
+                                        <ul class="circle-colors-list dp-flx"></ul>
+                                        <p>9990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/airtag-finewoven-key-ring-blackberry.jfif" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">AirTag кольцо для ключей — Бордовый</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #500505;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #142b14;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #1a1a1a;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #0e1835;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #35320e;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>3490₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/belkin-secure-holder-with-wire-cable.jfif" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Belkin замок для AirTag с железной петлёй</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>1990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/belkin-secure-holder-with-strap-4-airtag.jfif" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Belkin держатель для AirTag с эластичной петлёй (4шт.)</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>3990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/belkin-secure-holder-with-strap.jfif" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Belkin держатель для AirTag с эластичной петлёй — Белый</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>1290₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="left left1">
+                        <img src="images/arrow-forward-circle.svg" alt="forward-button">
+                    </button>
+                    <button class="right right1">
+                        <img src="images/arrow-backward-circle.svg" alt="backward-button">
+                    </button>
+                </div>
+            </div>
+            <p class="underblock-paragraph"><a href="assortiment.html" class="underblock-link">Показать всё для AirTag</a> ></p>
+    
+            <div class="separator-horiz"></div>
+    
+            <div class=" dp-flx centering"><h1>Популярное для Mac</h1><img src="images/macbook-icon.svg" alt="vision-pro-picture" style="height: 50px;margin-bottom: auto; margin-left: 20px;"></div>
+            <div class="container dp-flx mobile-slider">
+                <div class="layer">
+                    <div class="viewport viewport4">
+                        <div class="wrapper wrapper4">
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/studio-display.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Studio Display</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>159990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/magic-keyboard-with-touchid-and-numeric-keypad-black.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Magic Keyboard с Touch ID и цифровым блоком</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>19990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/magic-mouse-black.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Magic Mouse</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>9990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/magic-trackpad-black.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Magic Trackpad</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                            </li>
+                                            <li>
+                                                <div class="circle-colors" style="background-color: #161616;"></div>
+                                            </li>
+                                        </ul>
+                                        <p>14990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/240w-usb-c-charge-cable-2m.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">USB-C кабель для зарядки 240W (2 м)</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>2990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/usb-c-digital-av-multiport-adapter.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">USB-C цифровой AV разветвитель</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>6990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="left left4">
+                        <img src="images/arrow-forward-circle.svg" alt="backward-button">
+                    </button>
+                    <button class="right right4">
+                        <img src="images/arrow-backward-circle.svg" alt="forward-button">
+                    </button>
+                </div>
+            </div>
+            <p class="underblock-paragraph"><a href="mac-accessories.html" class="underblock-link">Показать всё</a> ></p>
+    
+            <div class="separator-horiz"></div>
+    
+            <div class=" dp-flx centering"><h1>Популярное для Vision Pro</h1><img src="images/vision-icon.svg" alt="vision-pro-picture" style="height: 50px;margin-bottom: auto; margin-left: 20px;"></div>
+            <div class="container dp-flx mobile-slider">
+                <div class="layer">
+                    <div class="viewport viewport5">
+                        <div class="wrapper wrapper5">
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/apple-vision-pro-travel-case.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Чехол для путешествий для Apple Vision Pro</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>19990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/apple-vision-pro-battery.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Батарея для Apple Vision Pro</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>19990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/zeiss-optical-inserts.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Оптические линзы ZEISS</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>от 9990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/apple-vision-pro-dual-loop-band.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Крепление двойная петля для Apple Vision Pro</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>9990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/apple-vision-pro-solo-knit-band.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Крепление Solo knit для Apple Vision Pro</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>9990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-element" href="product.html">
+                                <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                                    <div class="square-image">
+                                        <img src="images/belkin-battery-holder-for-apple-vision-pro.png" alt="product-picture" class="advantages-picture">
+                                    </div>
+    
+                                    <div class="square-image-description">
+                                        <h3 style="height: 80px; margin-bottom: 0px;">Держатель батареи Belkin для Apple Vision Pro</h3>
+                                        <ul class="circle-colors-list dp-flx">
+                                        </ul>
+                                        <p>4990₽</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="left left5">
+                        <img src="images/arrow-forward-circle.svg" alt="backward-button">
+                    </button>
+                    <button class="right right5">
+                        <img src="images/arrow-backward-circle.svg" alt="forward-button">
+                    </button>
+                </div>
+            </div>
+            <p class="underblock-paragraph"><a href="vision-accessories.html" class="underblock-link">Показать всё</a> ></p>
+    
+            <footer class="mt-0">
+                <div class="container">
+                    <div class="footer-upperblock">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/logo-name.svg" alt="logo" style="height: 50px;">
+                        </a>
+                        <div class="footer-upperblock-subscribe dp-flx">
+                            <p>Подпишитесь на нас:</p>
+                            <a target="_blank" href="https://youtube.com/@vita_ray"><img src="images/youtube-logo.svg" alt="youtube-logo" class="social-sites-logo"></a>
+                            <a target="_blank" href="https://web.telegram.org/k/#@vita_ray_studio"><img src="images/telegram-logo.svg" alt="telegram-logo" class="social-sites-logo"></a>
+                            <a target="_blank" href="https://vk.com/vita_ray"><img src="images/vk-logo.svg" alt="vk-logo" class="social-sites-logo"></a>
+                        </div>
+                        <div class="nothing"></div>
+                        <div class="nothing"></div>
+                    </div>
+                    <div class="footer-lowerblock dp-flx">
+                        <span>Copyright © 2024 Vita Ray Studio. Все права защищены.</span>
+                        <ul class="footer-lowerblock-pages dp-flx">
+                            <li style="border-left: 1px solid rgb(210, 210, 215); border-right: 1px solid rgb(210, 210, 215);">
+                                <a href="about-us.html">О нас</a>
+                            </li>
+                            <li>
+                                <a href="reviews.html">Отзывы</a>
+                            </li>
+                            <li style="border-left: 1px solid rgb(210, 210, 215); border-right: 1px solid rgb(210, 210, 215);">
+                                <a href="support.html">Поддержка</a>
+                            </li>
+                        </ul>
+                        <a href="#" style="font-size: 22px;">RU</a>
+                    </div>    
+                </div>
+            </footer>
+
+            <button id="scrollToTop" class="btn btn-primary" style="display: none;">
+                <img src="images/arrow-up-circle.svg" alt="Scroll to top"/>
+            </button>
+        </div>
+
+        <script src="assets/main.js"></script>
+
+
+    </body>
+</html>

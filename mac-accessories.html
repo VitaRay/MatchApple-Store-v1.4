@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en-RU">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/svg" href="images/logo-circle.svg" sizes="32x32"/>
+        <link rel="stylesheet" href="assets/preloader-styles.css">
+        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+        <title>Аксессуары для Mac</title>
+    </head>
+    <body class="unloaded">
+        <div class="preloader-container">
+            <div id="big">
+                <div id="dot55"></div>
+                <div id="dot56"></div>
+                <div id="dot58"></div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>let t10 = new TimelineMax({repeat: -1});
+                let t10a = new TimelineMax({repeat: -1});
+                t10
+                   .fromTo($("#dot55"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot56"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot58"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                t10a
+                    .fromTo($("#dot57"), 0.4, {y:-120}, {y:-3, ease:Power2.easeIn},0)
+                    .fromTo($("#dot57"), 0.4, {y:-3},{y:-120, ease:Power2.easeOut});
+                    window.onload = function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('unloaded');}</script>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo-name.svg" alt="logo" style="height: 35px;">
+                </a>
+                    <div class="separator-vert" style="background-color: #1f1f1f;"></div>
+                <ul class="navbar-menu">
+                    <li><a href="mac-accessories.html" style="opacity: 1;">Mac</a></li>
+                    <li><a href="ipad-accessories.html">iPad</a></li>
+                    <li><a href="iphone-accessories.html">iPhone</a></li>
+                    <li><a href="vision-accessories.html">Vision</a></li>
+                    <li><a target="_blank" href="https://apple.com">Apple Side</a></li>
+                </ul>
+
+                <div class="separator-vert" style="background-color: #1f1f1f;"></div>
+                <ul class="navbar-menu">
+                    <li><a href="about-us.html">О нас</a></li>
+                    <li><a href="support.html">Поддержка</a></li>
+                </ul>
+
+                <ul class="navbar-menu navbar-side-menu">
+                    <li><a href="user-cart.html"><img class="cart" src="images/cart.svg" alt="cart" style="height: 32px;"></a></li>
+                    <li>
+                        <a href="login.php" class="nav-login-link">
+                            <div class="nav-login dp-flx">Войти</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-name">
+                <div class="container" style="border-top: 1px solid rgb(210, 210, 215); justify-content: left;">
+                    <a href="mac-accessories.html"><h3>Для Mac</h3></a>
+                    <img src="images/macbook-icon.svg" alt="macbook-picture" style="width: 45px;margin: auto 10px;">
+                </div>
+            </div>
+        </nav>
+
+        <div class="page-content">
+            <div class="banner-utp">
+                <div class="banner-description">
+                    <h1>Найдите идеальное подключение</h1>
+                    <p><a href="assortiment.html" class="underblock-link">Показать всё</a> ></p>
+                </div>
+                <div class="banner-img-container">
+                    <img src="images/banner-image-mac.png" alt="banner-picture">
+                </div>
+            </div>
+    
+            <h1 class="mt-5">Популярные аксессуары</h1>
+            <div class="container centering">
+                <div class="featured-products">
+                    <a class="carousel-element" href="product.html">
+                        <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                            <div class="square-image">
+                                <img src="images/35w-dual-c-port-compact-power-adapter.png" alt="product-picture" class="advantages-picture">
+                            </div>
+    
+                            <div class="square-image-description">
+                                <h3>35W  Двойной USB-C Адаптер Питания</h3>
+                                <ul class="circle-colors-list dp-flx">
+                                </ul>
+                                <p>5990₽</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-element" href="product.html">
+                        <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                            <div class="square-image">
+                                <img src="images/studio-display.png" alt="product-picture" class="advantages-picture">
+                            </div>
+    
+                            <div class="square-image-description">
+                                <h3>Apple Studio Display</h3>
+                                <ul class="circle-colors-list dp-flx">
+                                </ul>
+                                <p>159990₽</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-element" href="product.html">
+                        <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                            <div class="square-image">
+                                <img src="images/magic-keyboard-with-touchid-and-numeric-keypad-black.png" alt="product-picture" class="advantages-picture">
+                            </div>
+    
+                            <div class="square-image-description">
+                                <h3>Magic Trackpad</h3>
+                                <ul class="circle-colors-list dp-flx">
+                                    <li>
+                                        <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                    </li>
+                                    <li>
+                                        <div class="circle-colors" style="background-color: #161616;"></div>
+                                    </li>
+                                </ul>
+                                <p>19990₽</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-element" href="product.html">
+                        <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                            <div class="square-image">
+                                <img src="images/magic-trackpad.png" alt="product-picture" class="advantages-picture">
+                            </div>
+    
+                            <div class="square-image-description">
+                                <h3>Magic Trackpad</h3>
+                                <ul class="circle-colors-list dp-flx">
+                                    <li>
+                                        <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                    </li>
+                                    <li>
+                                        <div class="circle-colors" style="background-color: #161616;"></div>
+                                    </li>
+                                </ul>
+                                <p>14990₽</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-element" href="product.html">
+                        <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                            <div class="square-image">
+                                <img src="images/magic-mouse-black.png" alt="product-picture" class="advantages-picture">
+                            </div>
+    
+                            <div class="square-image-description">
+                                <h3>Magic Mouse</h3>
+                                <ul class="circle-colors-list dp-flx">
+                                    <li>
+                                        <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                    </li>
+                                    <li>
+                                        <div class="circle-colors" style="background-color: #161616;"></div>
+                                    </li>
+                                </ul>
+                                <p>9990₽</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="carousel-element" href="product.html">
+                        <div class="review-element dp-block item" style="background-color: rgb(245, 245, 247);">
+                            <div class="square-image">
+                                <img src="images/usb-c-digital-av-multiport-adapter.png" alt="product-picture" class="advantages-picture">
+                            </div>
+    
+                            <div class="square-image-description">
+                                <h3>USB-C Цифровой AV Разветвитель</h3>
+                                <ul class="circle-colors-list dp-flx">
+                                </ul>
+                                <p>6990₽</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="assortiment-heading">
+                    <a href="#" class="filter-block">
+                        <img src="images/filter-picture.svg" alt="filter-picture" style="width: 35px;">
+                        <p>Фильтр</p>
+                    </a>
+                    <div class="separator-vert" style="background-color: rgb(134, 134, 139);"></div>
+                <h2>Ассортимент</h2>
+                <div class="separator-vert" style="background-color: rgb(134, 134, 139);"></div>
+                <a href="#" style="margin-right: 10%;">Сортировка: По популярности</a>
+            </div>
+            
+    
+            <div class="assortiment-block">
+                <div class="filter-main">
+                    <a href="#" class="assortiment-main-link">Тип продукта</a>
+                    <div class="mini-separator"></div>
+                    <a href="#" class="assortiment-main-link">Производитель</a>
+                    <div class="mini-separator"></div>
+                    <a href="#" class="assortiment-main-link">Цвет</a>
+                    <div class="mini-separator"></div>
+                    <a href="#" class="assortiment-main-link">Материал</a>
+                </div>
+                <div class="row" style="align-items: left;
+                justify-content: left;">
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/usb-c-to-magsafe3-cable-2m-silver.jpg" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>USB-C — MagSafe 3 Кабель для Зарядки — Серебристый</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #E3E4E6;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #7D7E80;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #2E3641;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #F0E5D2;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #2E2C2F;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/70w-usb-c-power-adapter.png" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Адаптер Питания 70W USB-C</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>5990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/240w-usb-c-charge-cable-2m.png" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>USB-C Кабель для Зарядки 240W (2 м)</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>2990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/thunderbolt-5-usb-c-pro-cable-1m.png" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Thunderbolt 5 (USB-C) Про Кабель</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>7990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/belkin-iphone-mount-with-magsafe-for-macbooks.jfif" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Крепление Belkin для iPhone с MagSafe на Макбуки</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>2990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/airpods-pro-2.jfif" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>AirPods Pro 2</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>24990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/airpods-4-with-active-noise-cancellation.png" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>AirPods 4 с Активным Шумоподавлением</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>17990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/microsoft-office-home-and-student-2021-one-mac.jpg" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Microsoft Office Домашняя 2021</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>14990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/microsoft-365-personal-1-year-subscription.jpg" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Microsoft 365 Персональная (Подписка на 1 год)</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>6990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/apple-mac-pro-wheels-kit.jpg" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Набор Колёсиков для Apple Mac Pro</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>69990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/apple-mac-pro-feet-kit.jpg" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Ножки для Apple Mac Pro</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>29990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/earpods-usb-c.jpg" alt="product-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>EarPods (USB-C)</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>1990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <footer class="mt-0">
+                <div class="container">
+                    <div class="footer-upperblock dp-flx">
+                        <a href="index.html" class="navbar-brand" style="margin: auto 0;">
+                            <img src="images/logo-name.svg" alt="logo" style="height: 50px;">
+                        </a>
+                        <div class="footer-upperblock-subscribe dp-flx">
+                            <p>Подпишитесь на нас:</p>
+                            <a target="_blank" href="https://youtube.com/@vita_ray"><img src="images/youtube-logo.svg" alt="youtube-logo" class="social-sites-logo"></a>
+                            <a target="_blank" href="https://web.telegram.org/k/#@vita_ray_studio"><img src="images/telegram-logo.svg" alt="telegram-logo" class="social-sites-logo"></a>
+                            <a target="_blank" href="https://vk.com/vita_ray"><img src="images/vk-logo.svg" alt="vk-logo" class="social-sites-logo"></a>
+                        </div>
+                        <div class="nothing"></div>
+                        <div class="nothing"></div>
+                    </div>
+                    <div class="footer-lowerblock dp-flx">
+                        <span>Copyright © 2024 Vita Ray Studio. Все права защищены.</span>
+                        <ul class="footer-lowerblock-pages dp-flx">
+                            <li style="border-left: 1px solid rgb(210, 210, 215); border-right: 1px solid rgb(210, 210, 215);">
+                                <a href="about-us.html">О нас</a>
+                            </li>
+                            <li>
+                                <a href="reviews.html">Отзывы</a>
+                            </li>
+                            <li style="border-left: 1px solid rgb(210, 210, 215); border-right: 1px solid rgb(210, 210, 215);">
+                                <a href="support.html">Поддержка</a>
+                            </li>
+                        </ul>
+                        <a href="#" style="font-size: 22px;">RU</a>
+                    </div>    
+                </div>
+            </footer>
+            <button id="scrollToTop" class="btn btn-primary" style="display: none;">
+                <img src="images/arrow-up-circle.svg" alt="Scroll to top"/>
+            </button>
+        </div>
+        <script src="assets/main.js"></script>
+    </body>
+</html>

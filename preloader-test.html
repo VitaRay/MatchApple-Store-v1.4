@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="images/logo-circle.svg" sizes="32x32"/>
+    <link rel="stylesheet" href="assets/preloader-styles.css">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>MatchApple Store</title>
+</head>
+    <body>
+        <div class="preloader-container">
+            <div id="big">
+                <div id="dot55"></div>
+                <div id="dot56"></div>
+                        <div id="dot58"></div>
+            </div>
+        </div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>let t10 = new TimelineMax({repeat: -1});
+                let t10a = new TimelineMax({repeat: -1});
+                
+                
+                t10
+                   .fromTo($("#dot55"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot56"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot58"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                t10a
+                    .fromTo($("#dot57"), 0.4, {y:-120}, {y:-3, ease:Power2.easeIn},0)
+                    .fromTo($("#dot57"), 0.4, {y:-3},{y:-120, ease:Power2.easeOut});</script>
+    </body>
+
+
+
+ </html>

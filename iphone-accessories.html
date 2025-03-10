@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en-RU">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/svg" href="images/logo-circle.svg" sizes="32x32"/>
+        <link rel="stylesheet" href="assets/preloader-styles.css">
+        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+        <title>Аксессуары для iPhone</title>
+    </head>
+    <body class="unloaded">
+        <div class="preloader-container">
+            <div id="big">
+                <div id="dot55"></div>
+                <div id="dot56"></div>
+                <div id="dot58"></div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>let t10 = new TimelineMax({repeat: -1});
+                let t10a = new TimelineMax({repeat: -1});
+                t10
+                   .fromTo($("#dot55"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot56"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                   .fromTo($("#dot58"),1,{rotationY:0,ease:Power0.easeNone},{rotationY:360,ease:Power0.easeNone},0)
+                t10a
+                    .fromTo($("#dot57"), 0.4, {y:-120}, {y:-3, ease:Power2.easeIn},0)
+                    .fromTo($("#dot57"), 0.4, {y:-3},{y:-120, ease:Power2.easeOut});
+                    window.onload = function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('unloaded');}</script>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo-name.svg" alt="logo" style="height: 35px;">
+                </a>
+                    <div class="separator-vert" style="background-color: #1f1f1f;"></div>
+                <ul class="navbar-menu">
+                    <li><a href="mac-accessories.html">Mac</a></li>
+                    <li><a href="ipad-accessories.html">iPad</a></li>
+                    <li><a href="iphone-accessories.html" style="opacity: 1;">iPhone</a></li>
+                    <li><a href="vision-accessories.html">Vision</a></li>
+                    <li><a target="_blank" href="https://apple.com">Apple Side</a></li>
+                </ul>
+
+                <div class="separator-vert" style="background-color: #1f1f1f;"></div>
+                <ul class="navbar-menu">
+                    <li><a href="about-us.html">О нас</a></li>
+                    <li><a href="support.html">Поддержка</a></li>
+                </ul>
+
+                <ul class="navbar-menu navbar-side-menu">
+                    <li><a href="user-cart.html"><img class="cart" src="images/cart.svg" alt="cart" style="height: 32px;"></a></li>
+                    <li>
+                        <a href="login.php" class="nav-login-link">
+                            <div class="nav-login dp-flx">Войти</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-name">
+                <div class="container" style="border-top: 1px solid rgb(210, 210, 215); justify-content: left;">
+                    <a href="iphone-accessories.html"><h3>Для iPhone</h3></a>
+                    <img src="images/iphone-icon.svg" alt="iphone-picture" style="height: 35px;margin: auto 10px;">
+                </div>
+            </div>
+        </nav>
+
+        <div class="page-content">
+            <div class="banner-utp" style="background-color: #fff;">
+                <div class="banner-description">
+                    <h1>Раскрась свой iPhone
+                        яркими чехлами</h1>
+                    <p><a href="assortiment.html" class="underblock-link">Перейти к чехлам</a> ></p>
+                </div>
+                <div class="banner-img-container">
+                    <img src="images/banner-image-iphone.png" alt="banner-picture">
+                </div>
+            </div>
+    
+            <div class="assortiment-heading">
+                    <a href="#" class="filter-block">
+                        <img src="images/filter-picture.svg" alt="filter-picture" style="width: 35px;">
+                        <p>Фильтр</p>
+                    </a>
+                    <div class="separator-vert" style="background-color: rgb(134, 134, 139);"></div>
+                <h2>Ассортимент</h2>
+                <div class="separator-vert" style="background-color: rgb(134, 134, 139);"></div>
+                <a href="#" style="margin-right: 10%;">Сортировка: По популярности</a>
+            </div>
+            
+    
+            <div class="assortiment-block">
+                <div class="filter-main">
+                    <a href="#" class="assortiment-main-link">Тип продукта</a>
+                    <div class="mini-separator"></div>
+                    <a href="#" class="assortiment-main-link">Производитель</a>
+                    <div class="mini-separator"></div>
+                    <a href="#" class="assortiment-main-link">Цвет</a>
+                    <div class="mini-separator"></div>
+                    <a href="#" class="assortiment-main-link">Материал</a>
+                </div>
+                <div class="row" style="align-items: left;
+                justify-content: left;">
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/airpods-pro-2.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>AirPods Pro 2</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>24990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/iphone-16-pro-clear-case-with-magsafe.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Прозрачный Чехол с MagSafe для iPhone 16 Pro</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/iphone-16-pro-silicone-case-with-magsafe-ultramarine.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Силиконовый Чехол с MagSafe для iPhone 16 Pro — Ультрамарин</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #2f23a0;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #f8e74a;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #34532c;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #c447b9;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #161616;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/iphone-16-silicone-case-with-magsafe-ultramarine.png" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Силиконовый Чехол для iPhone 16 с MagSafe — Ультрамарин</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #40198a;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #e1e43b;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #162917;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #9e2884;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #161616;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/iphone-finewoven-wallet-with-magsafe-blackberry.png" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Кошелёк MagSafe — Бордовый</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #311318;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #192413;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #151727;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #161616;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>5990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/magsafe-charger-1m.png" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Зарядка MagSafe (1 м)</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>3990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/magsafe-charger-1m.png" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Зарядка MagSafe (2 м)</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #161616;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/belkin-iphone-mount-with-magsafe-for-apple-tv-4k.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Крепление Belkin для iPhone с MagSafe на Apple TV 4K</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/belkin-iphone-mount-with-magsafe-for-macbooks.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Крепление Belkin для iPhone с MagSafe на Макбуки</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #fafafa;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #161616;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>2990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/belkin-iphone-mount-with-magsafe-for-mac-displaysjfif.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Крепление Belkin для iPhone с MagSafe на Apple Display</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                    </ul>
+                                    <p>3990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/otterbox-lumen-series-case-with-magsafe-for-iphone-16-pro-blue.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Чехол OtterBox Lumen Series с MagSafe для iPhone 16 Pro — Синий</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #111b57;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #b431ae;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #1e351b;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #161616;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-0" style="padding: 0;">
+                        <a class="carousel-element" href="product.html">
+                            <div class="review-element dp-block item assortiment-element">
+                                <div class="square-image">
+                                    <img src="images/otterbox-lumen-series-case-with-magsafe-for-iphone-16-pink.jfif" alt="magic-trackpad-picture" class="advantages-picture">
+                                </div>
+    
+                                <div class="square-image-description">
+                                    <h3>Чехол OtterBox Lumen Series с MagSafe для iPhone 16 — Розовый</h3>
+                                    <ul class="circle-colors-list dp-flx">
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #111b57;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #b431ae;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #1e351b;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-colors" style="background-color: #161616;"></div>
+                                        </li>
+                                    </ul>
+                                    <p>4990₽</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <footer class="mt-0">
+                <div class="container">
+                    <div class="footer-upperblock dp-flx">
+                        <a href="index.html" class="navbar-brand" style="margin: auto 0;">
+                            <img src="images/logo-name.svg" alt="logo" style="height: 50px;">
+                        </a>
+                        <div class="footer-upperblock-subscribe dp-flx">
+                            <p>Подпишитесь на нас:</p>
+                            <a target="_blank" href="https://youtube.com/@vita_ray"><img src="images/youtube-logo.svg" alt="youtube-logo" class="social-sites-logo"></a>
+                            <a target="_blank" href="https://web.telegram.org/k/#@vita_ray_studio"><img src="images/telegram-logo.svg" alt="telegram-logo" class="social-sites-logo"></a>
+                            <a target="_blank" href="https://vk.com/vita_ray"><img src="images/vk-logo.svg" alt="vk-logo" class="social-sites-logo"></a>
+                        </div>
+                        <div class="nothing"></div>
+                        <div class="nothing"></div>
+                    </div>
+                    <div class="footer-lowerblock dp-flx">
+                        <span>Copyright © 2024 Vita Ray Studio. Все права защищены.</span>
+                        <ul class="footer-lowerblock-pages dp-flx">
+                            <li style="border-left: 1px solid rgb(210, 210, 215); border-right: 1px solid rgb(210, 210, 215);">
+                                <a href="about-us.html">О нас</a>
+                            </li>
+                            <li>
+                                <a href="reviews.html">Отзывы</a>
+                            </li>
+                            <li style="border-left: 1px solid rgb(210, 210, 215); border-right: 1px solid rgb(210, 210, 215);">
+                                <a href="support.html">Поддержка</a>
+                            </li>
+                        </ul>
+                        <a href="#" style="font-size: 22px;">RU</a>
+                    </div>    
+                </div>
+            </footer>
+            <button id="scrollToTop" class="btn btn-primary" style="display: none;">
+                <img src="images/arrow-up-circle.svg" alt="Scroll to top"/>
+            </button>
+        </div>
+        <script src="assets/main.js"></script>
+    </body>
+</html>
